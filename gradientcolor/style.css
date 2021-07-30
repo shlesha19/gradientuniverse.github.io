@@ -1,0 +1,786 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.custom-toggler .navbar-toggler-icon {
+    color: aliceblue;
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(248, 242, 246);
+  } 
+
+  h1 {
+    font-family: 'Berkshire Swash', cursive;
+  }
+  
+#navbar {
+  font-family: 'Berkshire Swash', cursive;
+}
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .mycard{
+    margin-top: 10px;
+    margin-left: 6%;
+    display: inline-block;
+    font-family: 'Berkshire Swash', cursive;
+    height: auto;
+    
+  }
+
+  .one {
+    
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(75, 3, 3),rgb(228, 60, 9));
+    margin-top: 10px;
+    margin-left: 4%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .two {
+    
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(88, 86, 228),rgb(144, 204, 228));
+    margin-top: 10px;
+    margin-left: 4%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .three {
+    
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(235, 8, 38),rgb(245, 134, 171));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .four {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(14, 85, 12),rgb(20, 224, 64));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .five {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(194, 106, 5),rgb(209, 212, 11));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .six {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(94, 1, 94),rgb(228, 102, 240));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .seven {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(190, 5, 5),rgb(230, 114, 6));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .eight {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(11, 148, 240),rgb(18, 247, 247));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .nine {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(78, 1, 78),rgb(128, 5, 97));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+
+  .ten {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(rgb(4, 175, 56),rgb(9, 199, 183));
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .eleven {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(255, 165, 0),yellow);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twelve {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(red,pink);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirteen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(0, 255, 13),rgb(160, 233, 172));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .fourteen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#ff0088,#ff8899);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .fifteen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(119, 4, 94),rgb(223, 177, 215));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .sixteen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(32, 4, 107),rgb(114, 93, 161));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .seventeen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(121, 129, 4),rgb(207, 202, 126));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .eighteen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(150, 3, 142),rgb(243, 130, 228));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .nineteen {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(red,rgb(122, 48, 60));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twenty {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(rgb(4, 139, 117),rgb(159, 233, 217));
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyonee {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#b37400,#ecefe9);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentytwoo {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#eb1677,#ffaacc);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentythreee {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#512e1c,#d1d2b3);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyfourr {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#364f36,#affaaf);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyfivee {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#231a4f,#5d99fd);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyone {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#800080,#9fe9d9);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentytwo {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#ffc0cb,#800080);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentythree {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#ff0000,#ff8899);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyfour {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#5d99fd,#affaaa);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyfive {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#26119c,#ffaace);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentysix {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#5b3d2a,#affaaa);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyseven {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#832593,#5d9fff);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentyeight {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#eb1677,#e4deac);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .twentynine {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#140696,#ac6ab9);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirty {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#a37000,#aa3377);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtyone {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#6015a1,#85bf85);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtytwo {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#3d4c70,#affaaf);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtythree {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#ffa500,#daff00);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtyfour {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#daff,#ffa500);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtyfive {
+    height: 150px; 
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#40e0d0,#f5f5);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtysix {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#a500ff,#00ffa5);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtyseven {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#a5682a,#40e0d0);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtyeight {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#005aff,#ffa5);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .thirtynine {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#ffa500,#005aff);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .forty {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    background: linear-gradient(#26119c,#aa3377);
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .fortyone,.fortytwo,.fortythree,.fortyfour,.fortyfive,.fortysix,.fortyseven,.fortyeight,.fortynine,
+  .fifty,.fiftyone,.fiftytwo,.fiftythree,.fiftyfour,.fiftyfive,.fiftysix,.fiftyseven,.fiftyeight,
+  .fiftynine,.sixty {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .sixtyone,.sixtytwo,.sixtythree,.sixtyfour,.sixtyfive,.sixtysix,.sixtyseven,.sixtyeight,.sixtynine,
+  .seventy,.seventyone,.seventytwo,.seventythree,.seventyfour,.seventyfive,.seventysix,.seventyseven,
+  .seventyeight,.seventynine,.eighty {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 2%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+  
+  .mycardbody {
+  
+    height: auto;
+    width:150px;
+    margin-bottom: 10px;
+    background-color:rgb(12, 12, 12);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(255, 251, 251);
+    margin-left: 2%;
+    padding: 10px;
+    
+  }
+
+  
+  .hone,.htwo,.hthree,.hfour,.hfive,.hsix,.hseven,.height,.hnine,
+  .hten,.heleven,.htwelve,.hthirteen,.hfourteen,.hfifteen,.hsixteen,.hseventeen,.heighteen,
+  .hnineteen,.htwenty,.htwentyone,.htwentytwo,.htwentythree,.htwentyfour,.htwentyfive {
+    height: 160px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 3vw;
+    display: inline-block;
+    border-radius: 80px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  footer{
+	
+    bottom: 0;
+    margin-top: 30px;
+    
+  }
+  
+  @media (max-height:650px){
+    footer { position: static; }
+    header { padding-top:40px; }
+  }
+  
+  
+  .footer-distributed{
+    background-color: #000;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+   
+    padding: 50px 50px 60px 50px;
+    margin-top: 60px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left{
+    width: 25%;
+  }
+  
+  .footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Berkshire Swash', cursive;
+    margin: 0;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed .footer-left img{
+    width: 25%;
+  }
+  
+  .footer-distributed h3 span{
+    color:  wheat;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+  }
+  
+  .footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+  }
+  
+  .footer-distributed .footer-company-name{
+    color:  wheat;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center{
+    width: 30%;
+  }
+  
+  
+  .footer-distributed .footer-center i{
+    background-color:  wheat;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 10px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+  }
+  
+  .footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+  }
+  
+  .footer-distributed .footer-center p a{
+    color:  wheat;
+    text-decoration: none;;
+  }
+  
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right{
+    width: 30%;
+  }
+  
+  .footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  wheat;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons{
+    margin-top: 25px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 33px;
+    height: 39px;
+    cursor: pointer;
+  
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+  
+    margin-right: 1px;
+  }
+  
+  /* Here is the code for Responsive Footer */
+  /* You can remove below code if you don't want Footer to be responsive */
+  
+  
+  @media (max-width: 840px) {
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+
+  
+    
+  
+
+  
+
+  
